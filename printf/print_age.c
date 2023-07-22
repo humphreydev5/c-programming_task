@@ -7,7 +7,7 @@ int main(void){
 
   //adding more than one format speciation in "printf"
   int x = 5, y = 10;
-  printf ( "x is %2d and y is %2d\n", x, y );
+  printf ( "x is %-8d and y is %2d\n", x, y );
 
   return (0);
 
