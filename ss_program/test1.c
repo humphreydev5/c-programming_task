@@ -6,7 +6,7 @@ int main(void)
   int number = 17;
 
   pid_t process_id;
-  process_id = getppid();
+  process_id = getpid();
 
   printf("%d\n", number);
   printf("Print the process ID of the program: %u", process_id);
