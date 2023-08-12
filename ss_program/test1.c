@@ -9,7 +9,7 @@ int main(void)
   process_id = getpid();
 
   printf("%d\n", number);
-  printf("Print the process ID of the program: %u", process_id);
+  printf("Print the process ID of the program: %u\n", process_id);
 
   return(0);
 
