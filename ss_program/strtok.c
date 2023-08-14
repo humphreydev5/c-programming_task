@@ -7,8 +7,20 @@ int main(void)
   char *delim = " ";
   char *token;
 
-  token = strtok(str, delim);
-
+  /*token = strtok(str, delim);
   printf("%s\n", token);
+
+  token = strtok(NULL, delim);
+  printf("%s\n", token);*/
+
+  // using while loop to get our token
+  token = strtok(str, delim);
+  while (token)
+  {
+    printf("%s\t", token);
+    token = strtok(NULL, delim);
+  }
+  
+
   return 0;
 }
